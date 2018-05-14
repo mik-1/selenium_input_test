@@ -1,7 +1,5 @@
 type,attribute,name,rule_file_path
-text,name,text,name_list.csv
-password,name,password,password_list.csv
-textarea,name,textarea,name_list.csv
-checkbox,name,checkbox,checkbox_list.csv
-radio,name,radio,radio_list.csv
+text,name,text,values/name_list.csv
+password,name,password,values/password_list.csv
+textarea,name,textarea,values/name_list.csv
 submit

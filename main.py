@@ -4,6 +4,12 @@ import time
 import random
 from selenium import webdriver
 
+# 
+INPUT_RULE = ''
+TERGET_URL = 'https://localhost/selenium_test.html'
+TARGER_BROWSER = 'PC-CHROME'
+PATH_TO_CHROMEDRIVER = './chromedriver'
+
 def input_element(input_type, attribute, attribute_value, value):
 
     if attribute == 'name':
@@ -28,11 +34,6 @@ def input_element(input_type, attribute, attribute_value, value):
             e.send_keys(value)
         else:
             return
-
-# 
-TERGET_URL = 'https://foolean.net/selenium_test.html'
-TARGER_BROWSER = 'PC-CHROME'
-PATH_TO_CHROMEDRIVER = './chromedriver'
 
 # ブラウザの準備
 if TARGER_BROWSER == 'android':
